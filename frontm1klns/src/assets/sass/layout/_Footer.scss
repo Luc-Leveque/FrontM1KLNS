@@ -1,19 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+
 .footer{
-  background: white;
+  background: #34495E;
+  padding: 40px 0px;
+
 }
 .logo{
   text-align: center;
-
+  margin-left: 50%;
 }
 .foot{
   text-align: center;
   text-transform: uppercase ;
+  color: white;
+  padding: 10px;
+  font-family: poppins regular;
 }
 /* SOCIAL STUFF  */
-.social-container {
-  background: #eee;
-  padding: 25px 50px;
-}
+
 a.social {
   margin: 0 1rem;
   transition: transform 250ms;
@@ -24,13 +28,13 @@ a.social:hover {
 }
 
 a.facebook {
-  color: #4968ad;
+  color: white;
 }
 
 a.twitter {
-  color: #49a1eb;
+  color: white;
 }
 
 a.linkedin {
-  color: black;
+  color: white;
 }
