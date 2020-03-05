@@ -11,12 +11,46 @@ class Home extends Component {
         return (
             <div className="home-layout">
                 <section>
-                    <div className="row">
-                        <div className="col-md-6">
-                            <p>hnhj</p>
-                        </div>
-                        <div className="col-md-6">
-                            <p>jda</p>
+                    <div className="container textoter">
+                        <div className="row">
+                            <div className="col-md-6">
+                                <h3 className="marche">
+                                    comment ça marche ?
+                                </h3>
+                                <p className="lol">
+                                    Tous vos outils de dev <br/> réuni sur une <br/> seule application
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur  <br/> adipiscing elit, sed do eiusmod tempor
+                                    incidiunt <br/> ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                            <div className="col-md-6">
+                                <h4 className="titrer">
+                                    <span className="list-number">1</span>
+                                    Créer vos projets
+                                </h4>
+                                <p className="haha">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incidiunt ut labore et dolore magna aliqua.
+                                </p>
+                                <h4 className="titrer">
+                                    <span className="list-number">2</span>
+                                    Ajouter vos sprints
+                                </h4>
+                                <p className="haha">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incidiunt ut labore et dolore magna aliqua.
+                                </p>
+                                <h4 className="titrer">
+                                    <span className="list-number">3</span>
+                                    Affecter vos tâches
+                                </h4>
+                                <p className="haha">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incidiunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </section>
