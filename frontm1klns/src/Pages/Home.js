@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 import '../assets/sass/base/_base.scss';
 import image from '../assets/img/bg-img.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import MainTitle from '../components/MainTitle';
-//import UsersList from '../components/UsersList';
 
 
 class Home extends Component {
