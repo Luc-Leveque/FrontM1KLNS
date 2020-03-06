@@ -29,7 +29,6 @@ const index = (props) => {
                                     <FontAwesomeIcon icon={faLock} className="fa" size="2x" />
                                     <input type="password" className="form-control" placeholder="Confirmation mot de passe" name="" required="required"/>
                                 </div>
-
                                 <input type="submit" id="submit" className="btn btn-lg col-md-6 " value="S'inscrire"/>
                                 <br/>
                                 <div className="col-md-12 co">
