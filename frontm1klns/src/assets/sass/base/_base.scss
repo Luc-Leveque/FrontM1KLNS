@@ -6,6 +6,66 @@
 body{
   font-family: Montserrat;
 }
+.global{
+  width:auto;
+  background:#1E91DC;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.principal {
+  width: 25%;
+  padding: 5px 5px;
+  font-size: 25px;
+  background:#1E91DC;
+  color:white;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  text-align:center;
+  border: 4px solid white;
+  font-weight: bold;
+}
+
+.second {
+  width: 70%;
+  padding-top: 3%;
+  font-weight: bold;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  color: white;
+  font-size: 42px;
+  letter-spacing: 1rem;
+  line-height: 1.5em;
+}
+.third{
+  width:55%;
+  padding-top: 3%;
+  justify-content: center;
+  margin: auto;
+  display:flex;
+  text-align: center;
+  color:white;
+}
+.second{
+  h1{
+    font-size: 3.0em;
+  }
+}
+.he{
+  margin:auto;
+  text-align: center;
+  justify-content: center;
+  padding-top: 3%;
+}
+.pf{
+  color:white;
+  padding: 10%;
+  font-weight: bold;
+}
+
 
 .bg-img{
   height: 1086px;
@@ -52,7 +112,7 @@ body{
   padding: 15px;
 }
 /* button */
-.button {
+.but {
   position: relative;
   appearance: none;
   background: #2FCC71;
@@ -71,7 +131,7 @@ span {
   pointer-events: none;
 }
 
-/*button::before {
+.but::before {
   --size: 0;
   content: '';
   position: absolute;
@@ -83,10 +143,9 @@ span {
   transform: translate(-50%, -50%);
   transition: width .2s ease, height .2s ease;
 }
-
-button:hover::before {
+.but:hover::before {
   --size: 400px;
-}*/
+}
 
 .textoter {
   padding-top: 5%;
