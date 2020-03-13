@@ -112,6 +112,9 @@ body{
   padding: 15px;
 }
 /* button */
+.bute{
+  margin-top: 3%;
+}
 .but {
   position: relative;
   appearance: none;
@@ -131,21 +134,6 @@ span {
   pointer-events: none;
 }
 
-.but::before {
-  --size: 0;
-  content: '';
-  position: absolute;
-  left: var(--x);
-  top: var(--y);
-  width: var(--size);
-  height: var(--size);
-  background: radial-gradient(circle closest-side, #1CBC9C, transparent);
-  transform: translate(-50%, -50%);
-  transition: width .2s ease, height .2s ease;
-}
-.but:hover::before {
-  --size: 400px;
-}
 
 .textoter {
   padding-top: 5%;
