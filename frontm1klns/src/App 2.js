@@ -9,6 +9,11 @@ function App() {
   return (
       <div className="App">
         <Header/>
+        <div className="row">
+          <div className="myapp__container">
+
+          </div>
+        </div>
         <Routes/>
         <Footer/>
       </div>

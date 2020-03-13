@@ -15,28 +15,26 @@ class Header extends Component {
             <div className="logo" style={{backgroundImage: `url(${image1}` }} >
                <div className="row justify-content-between">
                        <div className="col-3 hlog">
-                           <img src={image2}/> 
+                           <img src={image2}/>
                        </div>
                        <div className="col-1 hlog1">
                            <button type="button" class="btn btn-outline-dark login">Login</button>
                        </div>
                 </div>
-                
+
                 <div className="col-md-3" >
-                    <h1>Où que vous soyez 
+                    <h1>Où que vous soyez
                     Restez <span className="free">Freelance</span></h1>
                     <button type="button" class="btn btn-outline-dark inscription">Inscrivez-vous</button>
                 </div>
-                
+
 
             </div>
-            
-            
 
-        ); 
+
+
+        );
     }
 }
 
 export default Header;
-
-
