@@ -27,14 +27,14 @@ class Home extends Component {
                                 <img src={image2}/>
                             </div>
                             <div className="col-1 hlog1">
-                                <a href="../Connexion" type="button" className="btn btn-outline-dark login">Login</a>
+                                <a href="/Connexion" type="button" className="btn btn-outline-dark login">Login</a>
                             </div>
                         </div>
 
                         <div className="col-md-3 sub" >
                             <h1>Où que vous soyez
                                 Restez <span className="free">Freelance</span></h1>
-                            <a href="../Inscription" type="button" className="btn btn-outline-dark inscription">Inscrivez-vous</a>
+                            <a href="/Inscription" type="button" className="btn btn-outline-dark inscription">Inscrivez-vous</a>
 
                         </div>
 
@@ -129,7 +129,7 @@ class Home extends Component {
                                 <h1>offre de lancement</h1>
                                 <p>inscrivez-vous et recevez prochainement  <br/>un accès prenium à l'application WeAreData</p>
                                 <div className="bute">
-                                    <a href="../Inscription" type="button" className="but"> <span>je m'inscris</span></a>
+                                    <a href="/Inscription" type="button" className="but"> <span>je m'inscris</span></a>
                                 </div>
                             </div>
                         </div>
