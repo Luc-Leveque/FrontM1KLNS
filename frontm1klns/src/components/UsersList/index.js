@@ -25,7 +25,6 @@ class Navigation extends Component {
                                     <li className="nav-item"><a className="nav-link" href="/Clients">Clients</a></li>
                                     <li className="nav-item"><a className="nav-link" href="/Sprints">Sprints</a></li>
                                     <li className="nav-item"><a className="nav-link" href="/Taches">Tâches</a></li>
-                                    <li className="nav-item"><a className="nav-link" href="/Taches">Tâches</a></li>
                                     <h2>Welcome {this.props.user.username}</h2>
                                     <p className="App-intro">
                                         <button type="button" className="form-submit" onClick={this.handleLogout.bind(this)}>Logout</button>
