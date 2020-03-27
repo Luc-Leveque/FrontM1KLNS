@@ -43,7 +43,6 @@ class index extends Component {
 
     onSubmit(e) {
         e.preventDefault();
-        console.log(`The values are ${this.state.lastName},${this.state.firstName}, ${this.state.email}, and ${this.state.password}`);
         const obj = {
             lastName: this.state.lastName,
             firstName: this.state.firstName,

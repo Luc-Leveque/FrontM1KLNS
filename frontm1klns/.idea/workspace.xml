@@ -84,7 +84,8 @@
       <workItem from="1583402081184" duration="22230000" />
       <workItem from="1583490185387" duration="10000" />
       <workItem from="1584093288519" duration="12144000" />
-      <workItem from="1584607526711" duration="34381000" />
+      <workItem from="1584607526711" duration="34486000" />
+      <workItem from="1585298417906" duration="26174000" />
     </task>
     <servers />
   </component>
@@ -120,5 +121,9 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1792.1120@0.0.1792.1120" timestamp="1584706816678" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1585317290888">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1585317290888" />
   </component>
 </project>

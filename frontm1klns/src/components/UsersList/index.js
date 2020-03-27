@@ -21,11 +21,10 @@ class Navigation extends Component {
                             <div className="navbar-collapse collapse justify-content-between align-items-center w-100"
                                  id="collapsingNavbar2">
                                 <ul className="topBotomBordersOut navbar-nav mx-auto text-center">
-                                    <li className="nav-item active"><a className="nav-link" href="/Projets">Projets</a></li>
+                                    <li className="nav-item"><a className="nav-link" href="/Projets">Projets</a></li>
                                     <li className="nav-item"><a className="nav-link" href="/Clients">Clients</a></li>
                                     <li className="nav-item"><a className="nav-link" href="/Sprints">Sprints</a></li>
                                     <li className="nav-item"><a className="nav-link" href="/Taches">Tâches</a></li>
-                                    <h2>Welcome {this.props.user.username}</h2>
                                     <p className="App-intro">
                                         <button type="button" className="form-submit" onClick={this.handleLogout.bind(this)}>Logout</button>
                                     </p>

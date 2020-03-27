@@ -8,6 +8,8 @@ import Taches from './Pages/Projets';
 import Connexion from './components/Connexion';
 import Inscription from './components/Inscription';
 import UsersList from './components/UsersList';
+import Update from './Services/Crud/Update';
+
 
 
 class Routes extends Component {
@@ -21,7 +23,7 @@ class Routes extends Component {
                 <Route exact path="/Connexion" component={Connexion}/>
                 <Route exact path="/Inscription" component={Inscription}/>
                 <Route exact path="/UsersList" component={UsersList}/>
-
+                <Route exact path="/update/:id" component={Update}/>
             </div>
         );
     }

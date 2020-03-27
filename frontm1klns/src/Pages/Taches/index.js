@@ -17,9 +17,9 @@ class Taches extends Component {
                         <thead>
                         <tr>
                             <th>#</th>
-                            <th>Un titre</th>
-                            <th>Une description</th>
-                            <th>Un statut</th>
+                            <th>Titre</th>
+                            <th>Description</th>
+                            <th>Statut</th>
                             <th>Temps de réalisation</th>
                         </tr>
                         </thead>
